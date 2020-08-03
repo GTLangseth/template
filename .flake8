@@ -1,0 +1,11 @@
+# Flake 8 format file
+
+[flake8]
+select = ANN,B,B9,BLK,C,D,DAR,E,F,I,S,W
+docstring-convention = google
+ignore = ANN101,E203,E501,W503,S404,S603,S607
+max-complexity = 10
+max-line-length = 88
+per-file-ignores = tests/*:S101
+import-order-style = google
+application-import-names = db_sync,tests
