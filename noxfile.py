@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-"""DB Sync Nox configuration file."""
+"""Template Nox configuration file."""
 
 # built in libs
 import tempfile
