@@ -12,6 +12,7 @@ packages = [
 [tool.poetry.dependencies]
 python = "^3.7"
 fire = "^0.3.1"
+nox = "^2020.5.24"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.4.3"
@@ -33,6 +34,7 @@ darglint = "^1.4.1"
 xdoctest = "^0.12.0"
 sphinx = "^3.1.1"
 mypy = "^0.780"
+nox = "^2020.5.24"
 
 [tool.poetry.scripts]
 hello = "template.hello_scripts:hello_bonfire"
